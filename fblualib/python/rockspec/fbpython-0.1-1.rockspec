@@ -38,6 +38,7 @@ build = {
         cmake -DROCKS_PREFIX=$(PREFIX) \
               -DROCKS_LUADIR=$(LUADIR) \
               -DROCKS_LIBDIR=$(LIBDIR) \
+              -DTorch_DIR="/root/torch/install/share/cmake/torch/ \
               .. &&
         $(MAKE)
     ]],
