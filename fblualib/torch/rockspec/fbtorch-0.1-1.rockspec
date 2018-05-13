@@ -36,7 +36,7 @@ build = {
               -DROCKS_LUADIR=$(LUADIR) \
               -DROCKS_LIBDIR=$(LIBDIR) \
               -DLUA_INCDIR="$(LUA_INCDIR)" \
-              -DTorch_DIR="/root/torch/install/share/cmake/torch/ \
+              -DTorch_DIR=/root/torch/install/share/cmake/torch/ \
               .. &&
         $(MAKE)
     ]],
